@@ -1,47 +1,74 @@
 <!DOCTYPE html>
 <html>
-  <title>netra</title>
-  <head>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Yesteryear&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/index.css">
-  </head>
-  <body>
-    <div class="header">
-      <div class="title">     
-          <span style="position: fixed; left: 20px;"><img src="img/kmit-b.png" alt="logo" width="100px" height="90px"></span>
-          <span style="position: fixed; left: 130px;">Netra <sub>2.0.0</sub> </span>
-          <span style="position: fixed; right: 130px;"><img src="img/bell.png" alt="bell" style="width: 60px; height: 60px;"></span>
-          <span style="position: fixed; right: 20px;"><a href="img/nat.jpg" target="_blank"><img src="nat.jpg" alt="profile" style="border-radius: 50%; width: 90px; height: 90px;"></a></span>
-      </div>  
-      <div class="profile">
-        
-      </div>
-    </div>
-
-    
-    
-    <div class="container">
-      <div class="item">
-       <img src="img/mark.png" alt="tick" width="100"  >
-        <p style=color:orange>Attendence </p>
-      </div>
-      <div class="item">
-        <img src="img/target.png" alt="circle" width="100" height="100" >
-        <p style=color:orange>Class performance </p>
-      </div>
-      <div class="item">
-        <img src="img/hammer.png" alt="hammer" width="100" height="100">
-        <p style=color:orange>Discipline</p>
-        
-        
+    <head>
+    <title>login</title>
+    <link rel="logo" href="https://logos-download.com/wp-content/uploads/2016/03/KFC_logo_emblem_logotype.png" type="image/png"/>
+        <style>
+            body
+            {
+                margin: 0;
+            }
+            .container
+            {
+                text-align: center;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+            }
+            .content
+            {
+                height: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                width: max-content;
+            }
+            .social
+            {
+                margin-top: 90px;
+            }
+            img
+            {
+                width: 7vh;
+                margin: 8px;
+            }
+            input
+            {
+                width: 45vh;
+                height: 40px;
+                margin: 2vh;
+                border-width: 1px;
+            }
+            button
+            {
+                width: 20vh;
+                height: 6vh;
+                border: none;
+                cursor: pointer;
+                border-radius: 10px;
+                background-color: rgb(3, 125, 238);
+                font-size: 2vh;
+                color: white;
+            }
+            button:hover
+            {
+                background-color: rgb(0, 86, 167);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <h1 style="margin: 0;padding-top: 10vh;">Login</h1>
+                <div class="social">
+                    <img src="https://pluspng.com/img-png/google-logo-png-open-2000.png" alt="google-logo">
+                    <img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/facebook_circle-512.png" alt="img">
+                    <img src="https://image.flaticon.com/icons/svg/25/25231.svg" alt="img">
+                    <img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/linkedin_circle-512.png" alt="img">
+                </div>
+                <input type="email" name="email" placeholder="Email" required><br>
+                <input type="password" name="password" placeholder="Password"><br><br>
+                <button>login</button>
+            </div>
         </div>
-        <div class="item">
-        <img src="img/setting.png" alt="setting" width="100" height="100" 
-        >
-        <p style=color:orange>Settings</p>
-      </div>
-    </div>
-
-  </body>
+    </body>
 </html>
